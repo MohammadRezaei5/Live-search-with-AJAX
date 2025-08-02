@@ -6,8 +6,7 @@ CORS Error Resolution
 When developing locally, you might encounter a CORS (Cross-Origin Resource Sharing) error if you try to load local files (like data.json) directly from your browser using the file:/// protocol.
 This is a security feature built into web browsers to prevent malicious scripts from accessing your local file system.
 
-The Solution:
-To fix this, I used a local web server (e.g., Python's http.server, Node.js http-server, or a VS Code extension like Live Server).
+The Solution: To fix this, I used a local web server (e.g., Python's http.server, Node.js http-server, or a VS Code extension like Live Server). 
 Serving the index.html and data.json files from an http:// address (like http://localhost:8000) resolves the CORS issue, allowing the AJAX request to load the data.json file successfully.
 --------------------------------------------------------------
 Some features:
