@@ -1,0 +1,34 @@
+[
+  {
+    "teamName": "تراکتور",
+    "teamLogo": "./images/tractor.png"
+  },
+  {
+    "teamName": "سپاهان",
+    "teamLogo": "./images/sepahan.png"
+  },
+  {
+    "teamName": "گل گهرسیرجان",
+    "teamLogo": "./images/golgohar-sirjan.png"
+  },
+  {
+    "teamName": "فولاد",
+    "teamLogo": "./images/folad.png"
+  },
+  {
+    "teamName": "ذوب آهن",
+    "teamLogo": "./images/zobahan.png"
+  },
+  {
+    "teamName": "مس رفسنجان",
+    "teamLogo": "./images/mes-rafsanjan.png"
+  },
+  {
+    "teamName": "استقلال",
+    "teamLogo": "./images/esteglal.png"
+  },
+  {
+    "teamName": "پرسپولیس",
+    "teamLogo": "./images/perspolis.png"
+  }
+]

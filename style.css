@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Vazirmatn", sans-serif;
+  font-feature-settings: "ss01";
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  min-height: 100vh;
+
+  background-color: #e5e5e5;
+}
+input,
+button {
+  font: inherit;
+}
+.container {
+  width: 200px;
+  max-height: 59px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  #search {
+    width: 100%;
+
+    padding: 5px;
+
+    border: 2px solid #ffb703;
+
+    border-radius: 5px;
+
+    outline: 0;
+
+    transition: border-color 0.3s ease;
+
+    &:hover {
+      border-color: #fd9e02;
+    }
+    &:focus {
+      border-color: #fb8500;
+    }
+  }
+
+  #results {
+    width: 100%;
+    height: 100%;
+
+    background-color: #fff;
+
+    color: #5c5c5c;
+
+    padding: 5px;
+
+    border-radius: 5px;
+
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+
+    &.visible {
+      visibility: visible;
+      height: auto;
+      overflow: visible;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      padding: 5px;
+
+      border-bottom: 1px solid #f2f2f2;
+
+      cursor: pointer;
+
+      &:hover {
+        background-color: #f2f2f2;
+      }
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .team-logo {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+      }
+
+      .team-name {
+        font-weight: bold;
+      }
+    }
+  }
+}
